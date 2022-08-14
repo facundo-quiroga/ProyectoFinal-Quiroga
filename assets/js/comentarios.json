@@ -1,0 +1,7 @@
+[
+    {"id":1, "nombre":"Laura Burgos", "comentario":"Comenzar fue lo mejor que hicimos, siempre predispuestos.", "empresa":"Cerveceria Carmina Burana", "imagen":"../assets/img/casos/empresa_1.png"},
+    {"id":2, "nombre":"Martin Torres", "comentario":"Siempre cerímos que nuestra empresa era muy particular para hacer marketing, la verdad que supuieron captar la escencia rápido.", "imagen":"../assets/img/casos/empresa_4.png", "empresa":"Gomez Abogados"},
+    {"id":3, "nombre":"Lucia Artico", "comentario":"Al principio costó ponernos de acuerdo en los costos, pero pudieron adapatarse y logramos comenzar de a poco.", "empresa":"Que Pan", "imagen":"../assets/img/casos/empresa_3.png"},
+    {"id":4, "nombre":"Marcelo Oropel", "comentario":"No teniamos feeling con uno de sus diseñadores, por diferencias de criterios, nos asignaron a otro con el que nos entendimos al toque!", "empresa":"Praga Automotores", "imagen":"../assets/img/casos/empresa_5.png"},
+    {"id":5, "nombre":"Jose Bianco", "comentario":"Todavia me acuerdo los mails que me respondian a las 2am cuando teniamos un evento por delante, super comprometidos!", "empresa":"Medios Rioja", "imagen":"../assets/img/casos/empresa_6.png"}
+]

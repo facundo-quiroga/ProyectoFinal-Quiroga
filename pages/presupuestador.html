@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Presupuestá tu Servicio</title>
+        <meta name="description" content="Todos tenemosuna historia, te contamos la nuestra.">
+        <meta name="keywords"  content="NEGOCIOS, COACHING, MARKETING, CRECIMIENTO, VENTAS, DISEÑO">     
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae1068fe8e.js" crossorigin="anonymous"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body class="container-fluid p-0">
+        <!--Inicio de barra de navegacion-->
+        <div class="barra__navegacion">
+          <div class="col-lg-10 container-fluid ">      
+            <nav class="navbar navbar-expand-lg navbar-light px-2">
+              <div class="container-fluid justify-items-around">
+                <a class="navbar-brand" href="../index.html">
+                <img class=""src="../assets/img/logo_small.png" alt="" width=auto height=auto> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../pages/conocenos.html">Conocenos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../pages/casos.html">Casos de Éxito</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../pages/contactanos.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../pages/academy.html">Academia</a>
+                    </li>
+                  </ul>
+                  <span class="navbar-text d-flex d-none d-md-block">
+                      Personas y Negocios
+                    </span>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+<!--Fin de barra de navegacion-->
+
+
+<!--Inicio de Contenido central-->
+<main class="justify-content-center row" >
+      
+  <div class="contenido__central d-flex col-12 col-lg-10 fluid-container justify-content-center row mt-4">
+    
+    <div class="titulo__pagina m-4">
+        <h2 class="mx-4">Presupuestá con nosotros:</h2>
+    </div>
+    <div class="texto__pagina mt-0 m-3 col-8 col-md-10" >
+      
+        <form id="datos" class="needs-validation" >
+          <p>Comencemos con información sobre vos:</p>
+            <label for="nombreCompleto" class="form-label">Nombre completo:</label>
+            <input  type="text" class="form-control" id="nombreCompleto" required>
+            <div hidden class ="text-danger validacion" id="validacionNombre">Complete Nombre</div>
+            <label for="edad" class="form-label">Edad</label>
+            <input required type="number" class="form-control" id="edad" >
+            <div hidden class ="text-danger validacion" id="validacionEdad">Complete edad</div>
+            <label for="provincia" class="form-label">Provincia</label>
+            <select required id="provincia" class="form-select" aria-label="Default select example">
+              <option selected>Selecciones su provincia</option>
+                  <option value="Misiones">Misiones</option>
+                  <option value="San Luis">San Luis</option>
+                  <option value="San Juan">San Juan</option>
+                  <option value="Entre Ríos">Entre Ríos</option>
+                  <option value="Santa Cruz">Santa Cruz</option>
+                  <option value="Río Negro">Río Negro</option>
+                  <option value="Chubut">Chubut</option>
+                  <option value="Córdoba">Córdoba</option>
+                  <option value="Mendoza">Mendoza</option>
+                  <option value="La Rioja">La Rioja</option>
+                  <option value="Catamarca">Catamarca</option>
+                  <option value="La Pampa">La Pampa</option>
+                  <option value="Santiago del Estero">Santiago del Estero</option>
+                  <option value="Corrientes">Corrientes</option>
+                  <option value="Santa Fe">Santa Fe</option>
+                  <option value="Tucumán">Tucumán</option>
+                  <option value="Neuquén">Neuquén</option>
+                  <option value="Salta">Salta</option>
+                  <option value="Chaco">Chaco</option>
+                  <option value="Formosa">Formosa</option>
+                  <option value="Jujuy">Jujuy</option>
+                  <option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+                  <option value="Buenos Aires">Buenos Aires</option>
+                  <option value="Tierra del Fuego">Tierra del Fuego</option>
+            </select>
+            <div hidden class ="text-danger validacion" id="validacionProvincia">Complete provincia</div>
+            <label required for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <div required id="emailHelp" class="form-text">No compartiremos tu mail con nadie.</div>
+            <div hidden class ="text-danger validacion" id="validacionEmail">Complete email</div>
+            <label for="telfono" class="form-label">Telefono</label>
+            <input required type="tel" class="form-control" id="telefono">
+            <div hidden class ="text-danger validacion" id="validacionTelefono">Complete telefono</div>
+
+
+          <div class="mt-3 mb-4">
+            <h5>¿Cuáles servicios querés incluir en tu paquete?</h5>
+          </div>
+          <label for="marca" class="form-label">Diseño o re-diseño de tu marca</label>
+            <select required id="marca" class="form-select validacion" aria-label="Default select example">
+              <option selected></option>
+                  <option value="si">Si</option>
+                  <option value="no">No</option>
+            </Select>
+            <div hidden class ="text-danger validacion" id="validacionMarca">Complete telefono</div>
+
+            <label for="flyers" class="form-label">Flyers y diseños gráficos para tu marca</label>
+            <select required id="flyers" class="form-select" aria-label="Default select example">
+              <option selected></option>
+                  <option value="si">Si</option>
+                  <option value="no">No</option>
+            </Select>
+            <div hidden class ="text-danger validacion" id="validacionFlyers">Complete telefono</div>
+
+
+            <label for="videos" class="form-label">Stories, anuncios en video o videos institucionales</label>
+            <select required id="videos" class="form-select" aria-label="Default select example">
+              <option selected></option>
+                  <option value="si">Si</option>
+                  <option value="no">No</option>
+            </Select>
+            <div hidden class ="text-danger validacion" id="validacionAudiovisual">Complete telefono</div>
+
+
+          <button id="botonDatos" type="button" class="btn btn-primary mt-4">Comenzar</button>
+        </form>
+    </div>
+
+        <div id="secciones" class="texto__pagina mt-0 m-3 col-8 col-md-10 " >
+          <div id="validacionDatos"></div>
+          <div id="seccionMarca" hidden>
+            <h6>Diseño de marca:</h6>
+            <form>
+
+              <div class="mb-3">
+                <label for="nombreMarca" class="form-label">Nombre de tu marca</label>
+                <input required type="text" class="form-control" id="nombreMarca" aria-describedby="emailHelp">
+                <div id="marcaHelp" class="form-text">Incluí tambien signos y números.</div>
+                <div hidden class ="text-danger validacion" id="validacionMarca2">Complete nombre de marca</div>
+
+              </div>
+
+              <label for="marcaColor" class="form-label">¿Cuál es el color que predomina en tu marca?</label>
+                <div class="mx-5 my-2">
+                  <input required type="color" class="form-control form-control-color ml-4" id="marcaColor" value=#FA9525 title="Elige tu color">
+                </div>
+                <div hidden class ="text-danger validacion" id="validacionColor">Elige el color</div>
+
+
+              <div class="mb-3">
+                <label for="cargaLogo" class="form-label">Subí tu logo o boceto de logo</label>
+                <input required class="form-control" type="file" id="cargaLogo">
+                <div id="logoHelp" class="form-text">Archivos admitidos: JPEG o PNG</div>
+              </div>             
+
+            </form>
+          </div>
+
+          <div id="seccionFlyers" hidden>
+            <h6>Flyers y diseño gráfico:</h6>
+            <form>
+              
+              <div class="mb-3">
+                <label for="edad" class="form-label">¿Cuántos flyers para redes sociales (historias o posteos) quisieras por semana?</label>
+                <input  required type="number" class="form-control" id="flyersSemanales">
+                <div hidden class ="text-danger validacion" id="validacionFlyersSemanales">Elige cuantos deseas. Coloca 0 si no requieres este servicio.</div>
+
+              </div>
+
+              <div class="mb-3">
+                <label for="edad" class="form-label">Podemos diseñar anuncios para medios gráficos (diarios, revistas, cartelería callejera) ¿Cuántos quisieras de estos diseños por mes?</label>
+                <input  required type="number" class="form-control" id="anunciosMenusales">
+                <div hidden class ="text-danger validacion" id="validacionAnunciosMensuales">Elige cuantos deseas. Coloca 0 si no requieres este servicio.</div>
+
+              </div>
+
+              <div class="mb-3">
+                <label for="edad" class="form-label">Tenemos una promo de diseños de imágenes para enviar por whatsapp y mail a tus clientes. ¿Cuántas te gustaría de estas iniciativas de marketing personal?</label>
+                <input  required type="number" class="form-control" id="flyersWhatsapp">
+                <div hidden class ="text-danger validacion" id="validacionFlyersWhatsapp">Elige cuantos deseas. Coloca 0 si no requieres este servicio.</div>
+
+              </div>
+            
+            </form>
+          </div>
+
+          <div id="seccionVideos" hidden>
+            <h6>Videos y diseño audiovisual:</h6>
+            <form>
+
+              <div class="mb-3">
+                <label for="edad" class="form-label">Las historias son una gran herramienta para captar clientes. ¿Cuántas stories animadas quisieras por semana?</label>
+                <input required type="number" class="form-control" id="storiesSemanales">
+                <div hidden class ="text-danger validacion" id="validacionStories">Elige cuantos deseas. Coloca 0 si no requieres este servicio.</div>
+
+              </div>
+
+              <div class="mb-3">
+                <label for="edad" class="form-label">Podemos crear anuncios para televisión, YouTube y otras plataformas, ¿cuántos videos de hasta 30 segundos quisieras por mes?</label>
+                <input required type="number" class="form-control" id="videoAnunciosMenusales">
+                <div hidden class ="text-danger validacion" id="validacionAunciosMensuelaes">Elige cuantos deseas. Coloca 0 si no requieres este servicio.</div>
+
+              </div>
+
+              <div class="mb-3">
+                <label for="edad" class="form-label">¿Te gustaría contar con videos institucionales de hasta 3 minutos? ¿Cuántos por año?</label>
+                <input required type="number" class="form-control" id="videosInstitucionalesMenusales">
+                <div hidden class ="text-danger validacion" id="validacionnsitucionalesMensuales">Elige cuantos deseas. Coloca 0 si no requieres este servicio.</div>
+
+              </div>
+            </form>
+          </div>
+          <button hidden id="botonPresupuestar" type="button" class="btn btn-primary mt-4">Presupuestar</button>
+
+        </div>
+
+        <div id="cotizacion" hidden >
+          <div class="container mb-5 mt-5">
+            <div class="pricing card-deck flex-column d-flex  flex-md-row mb-3">
+                <div class="justify-content-between card card-pricing text-center px-3 mb-4">
+                    <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Marca</span>
+                    <div class="bg-transparent card-header pt-4 border-0">
+                        <h1 class="h1 font-weight-normal text-primary text-center mb-0" data-pricing-value="15">$<span class="price" id="cotizacionMarca">0</span><p class="h6 text-muted ml-2"> Costo inicial</p></h1>
+                    </div>
+                    <div class=" pt-0">
+                        <ul class="list-unstyled mb-4">
+                            <li>Re-branding de logo</li>
+                            <li>Elección de tipografías</li>
+                            <li>Colores de marca</li>
+                            <li>Maual de marca</li>
+
+                        </ul>
+                        <a href="" target="_blank" class="btn btn-warning bg-orange mb-3" id="incluiMarca" hidden>Incluí el servicio</a>
+                    </div>
+                </div>
+                <div class="justify-content-between card card-pricing text-center px-3 mb-4">
+                    <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Flyers</span>
+                    <div class="bg-transparent card-header pt-4 border-0">
+                        <h1 class="h1 font-weight-normal text-primary text-center mb-0" data-pricing-value="30">$<span class="price" id="costoGrafico">0</span><p class="h6 text-muted ml-2">/ por mes</p></h1>
+                    </div>
+                    <div class=" pt-0">
+                        <ul class="list-unstyled mb-4 ">
+                            <li><b id="cantFlyersRedes">0</b> flyers p/redes sociales</li>
+                            <li class="text-danger" >$<b id="costoFlyers">0</b></li>
+                            <li><p></p></li>
+                            <li><b id="cantFlyersGraficos">0</b> diseños medios gráficos</li>
+                            <li class="text-danger" >$<b id="costoAnunciosGraficos">0</b></li>
+                            <li><p></p></li>
+
+                            <li><b id="cantFlyersWhatsapp">0</b> flyers para Whatsapp</li>
+                            <li class="text-danger" >$<b id="costoWhatsappGrafico">0</b></li>
+
+                        </ul>
+                        <a href="" target="_blank" class="btn btn-warning bg-orange mb-3 " id="incluiFlyers" >Incluí el servicio</a>
+                    </div>
+                </div>
+                <div class="justify-content-between card card-pricing text-center px-3 mb-4">
+                    <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Audiovisual</span>
+                    <div class="bg-transparent card-header pt-4 border-0">
+                        <h1 class="h1 font-weight-normal text-primary text-center mb-0" data-pricing-value="45">$<span class="price" id="costoAudiovisual">0</span><p class="h6 text-muted ml-2">/ por mes</p></h1>
+                    </div>
+                    <div class=" pt-0">
+                        <ul class="list-unstyled mb-4">
+                          <li><b id="cantStoriesSemanales">0</b> stories semanales</li>
+                          <li class="text-danger" >$<b id="costoStoriesSemanales">0</b></li>
+                          <li><p></p></li>
+                          <li><b id="cantVideoAnunciosMensuales">0</b> anuncios menuales</li>
+                          <li class="text-danger" >$<b id="costoVideoAnunciosMenusales">0</b></li>
+                          <li><p></p></li>
+
+                          <li><b id="cantVideosInstitucionales">0</b> videos institucionales</li>
+                          <li class="text-danger" >$<b id="costoVideosIntitucionales">0</b></li>
+                      </ul>
+                        <a href="" target="_blank" class="btn btn-warning bg-orange mb-3 " id="incluiVideos" >Incluí el servicio</a>
+                    </div>
+                </div>
+                <div class="justify-content-between card card-pricing text-center shadow px-3 mb-4">
+                    <span class="h6 w-60  px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Total</span>
+                    <div class=" pt-0">
+                        <ul class="list-unstyled mb-4" id="textoDescuento" hidden>
+                            <li>Obtenés un decuento de</li>
+                            <li class="text-danger fs-4" >$<b id="montoDecuento">0</b></li>
+                        </ul>
+                    </div>
+                    <div class="bg-transparent card-header pt-4 border-0">
+                      <h1 class="h1 font-weight-normal text-danger text-center mb-0" data-pricing-value="60">$<span class="price" id="total"></span><p class="h6 text-muted ml-2">/ por mes</p></h1>
+                      <a href="" target="_blank" class="btn btn-danger bg-orange mb-3 mt-5 " id="pagar">Comenzar ahora</a>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+      
+        <div>
+    
+          <div><h4>Nuestros clientes confían en nosotros:</h4></div>
+
+          <div id="comentarios" class="row justify-content-center"></div>
+        
+        </div>
+    </div>
+    </main>
+
+<!--Fin de Contenido central-->
+
+<!--Inicio de Footer-->
+<footer class="text-center p-0 mt-4 fluid-container">
+
+    <div class="contacto__footer pt-4">
+        <h3>Contactanos</h3>
+        <h5> 03804 - 658474</h5>
+        <h5> Saavedra 1865 - La Rioja - Argentina</h5>
+
+        <div class="redes m-3">
+            <i class="fa-brands fa-facebook mx-2"></i>
+            <i class="fa-brands fa-instagram mx-2"></i>
+            <i class="fa-brands fa-whatsapp mx-2"></i>
+        </div>
+
+    </div>
+
+    <div class="copyright container-fluid col-12 justify-content-center p-2 m-0">
+    <h5>©2022 - Inicio, Personas y Negocios, todos los derechos reservados.</h5>
+    </div>
+</footer>
+
+
+<!--Fin de Footer-->
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../assets/css/bootstrap.bundle.min.js" ></script>
+<script src="../assets/js/presupuestador.js"></script>
+
+    </body>
+</html>

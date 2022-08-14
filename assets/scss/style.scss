@@ -1,0 +1,47 @@
+@import "_variables";
+@import "_carrusel";
+@import "_footer";
+@import "_post";
+@import "_casos";
+
+.barra__navegacion{
+    background-color: $ColorPrimario;
+
+}
+nav  {
+    background-color: $ColorPrimario;
+    ul{
+        list-style: none;
+        li{
+            padding:10px 15px;
+            border-radius: 15px;
+                &:hover{
+                background-color: $ColorOscuro;
+                }
+            a{  text-decoration: none;
+                color: white;
+                font-family: $fuente;
+                font-size: 16px;
+            }
+    }
+    }
+}
+
+.nav-item {
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.nav-item-academy {
+    @extend.nav-item;
+    background-color: $ColorSecundario;
+
+}
+
+body.swal2-shown > [aria-hidden="true"] {
+    filter: blur(10px);
+  }
+
+  body > * {
+    transition: 0.15s filter linear;
+}

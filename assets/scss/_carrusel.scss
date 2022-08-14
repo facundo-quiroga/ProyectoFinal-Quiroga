@@ -1,0 +1,26 @@
+.carousel {
+    h5{ 
+    color: white;
+    background-color: $ColorPrimario;
+    padding: 10px 0px;
+    border-radius: 15px;
+    font-size: 35px;
+    text-shadow: 3px;
+    } 
+    p{
+    color: black;
+    background-color: white;
+    }
+}
+
+@media (max-width: 700px) {
+    .carousel {
+        
+        h5 {
+        font-size: 20px;
+        }
+        p{
+            font-size: 14px;
+            }
+    }
+}

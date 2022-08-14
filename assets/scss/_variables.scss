@@ -1,0 +1,51 @@
+$ColorPrimario: #FA9525;
+$ColorSecundario: #f8b859;
+$ColorEnfasis: #FF4F17;
+$ColorOscuro: #E3610B;
+$ColorButton: #FD4819;
+$fuente: Roboto;
+
+$recuadros:(
+    bordes:0,
+    color: white,
+    radio: 10px
+    );
+
+a:link, a:visited,  a:hover, a:active
+{
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Roboto;
+}
+
+.articulo {
+
+    h3{
+        font-size: 35px;
+        font-family: roboto;
+        color: $ColorPrimario;
+        margin-top: 10px !important;
+        margin-left: 5px;
+    }
+
+     h4{
+        font-size: 30px;
+        font-family: roboto;
+        color: $ColorEnfasis;
+        margin-top: 15px !important;
+        margin-left: 10px;}
+
+    a{
+        font-size: 30px;
+        font-family: roboto;
+        color: $ColorEnfasis;
+        } 
+    
+
+
+}

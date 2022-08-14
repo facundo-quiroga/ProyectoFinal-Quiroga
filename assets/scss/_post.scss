@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    .posteos {
+        .ocultarSm{
+        display: none;
+        }
+    }
+}
+
+@mixin margenes ($margenes,$paddings) {
+    margin: $margenes;
+    padding: $paddings;
+}
+
+.post{
+    background-color: $ColorPrimario;
+    color: map-get($recuadros, color);
+    border-radius: map-get($recuadros, radio);
+    @include margenes(10px,15px);
+
+
+    button {
+        background-color: $ColorButton;
+        border: map-get($recuadros, bordes);
+        color: map-get($recuadros, color);
+        border-radius: map-get($recuadros, radio);
+
+    }
+
+    h5{
+        font-size: 22px;
+        font-weight: 700;
+    }
+}

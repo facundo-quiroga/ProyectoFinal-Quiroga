@@ -1,0 +1,22 @@
+footer {
+    background-color: $ColorEnfasis;
+    color: white;
+    padding: 10px;
+
+    .redes{
+        color: white;
+        font-size: 24px;
+
+    }
+    
+    h5 { font-weight: 100;
+    font-size: 16px;
+    font-family: Roboto;
+    }
+
+    .copyright {
+        background-color: $ColorSecundario;
+        color: grey;
+    }
+    
+}

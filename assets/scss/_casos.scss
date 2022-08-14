@@ -1,0 +1,14 @@
+.caso{
+    background-color: $ColorEnfasis;
+    border-radius: 12px;
+
+    .texto__empresa {
+        text-align: center;
+        background-color: $ColorSecundario;
+        padding: 5px;
+        
+        h2{
+            font-size: 16px;
+        }
+    }
+}

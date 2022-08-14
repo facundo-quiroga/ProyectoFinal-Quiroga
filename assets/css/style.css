@@ -1,0 +1,164 @@
+a:link, a:visited, a:hover, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+.articulo h3 {
+  font-size: 35px;
+  font-family: roboto;
+  color: #FA9525;
+  margin-top: 10px !important;
+  margin-left: 5px;
+}
+
+.articulo h4 {
+  font-size: 30px;
+  font-family: roboto;
+  color: #FF4F17;
+  margin-top: 15px !important;
+  margin-left: 10px;
+}
+
+.articulo a {
+  font-size: 30px;
+  font-family: roboto;
+  color: #FF4F17;
+}
+
+.carousel h5 {
+  color: white;
+  background-color: #FA9525;
+  padding: 10px 0px;
+  border-radius: 15px;
+  font-size: 35px;
+  text-shadow: 3px;
+}
+
+.carousel p {
+  color: black;
+  background-color: white;
+}
+
+@media (max-width: 700px) {
+  .carousel h5 {
+    font-size: 20px;
+  }
+  .carousel p {
+    font-size: 14px;
+  }
+}
+
+footer {
+  background-color: #FF4F17;
+  color: white;
+  padding: 10px;
+}
+
+footer .redes {
+  color: white;
+  font-size: 24px;
+}
+
+footer h5 {
+  font-weight: 100;
+  font-size: 16px;
+  font-family: Roboto;
+}
+
+footer .copyright {
+  background-color: #f8b859;
+  color: grey;
+}
+
+@media (max-width: 768px) {
+  .posteos .ocultarSm {
+    display: none;
+  }
+}
+
+.post {
+  background-color: #FA9525;
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.post button {
+  background-color: #FD4819;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+}
+
+.post h5 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.caso {
+  background-color: #FF4F17;
+  border-radius: 12px;
+}
+
+.caso .texto__empresa {
+  text-align: center;
+  background-color: #f8b859;
+  padding: 5px;
+}
+
+.caso .texto__empresa h2 {
+  font-size: 16px;
+}
+
+.barra__navegacion {
+  background-color: #FA9525;
+}
+
+nav {
+  background-color: #FA9525;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+nav ul li:hover {
+  background-color: #E3610B;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.nav-item, .nav-item-academy {
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.nav-item-academy {
+  background-color: #f8b859;
+}
+
+body.swal2-shown > [aria-hidden="true"] {
+  filter: blur(10px);
+}
+
+body > * {
+  transition: 0.15s filter linear;
+}
+/*# sourceMappingURL=style.css.map */
