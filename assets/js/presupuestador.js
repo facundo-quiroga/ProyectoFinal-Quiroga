@@ -107,12 +107,12 @@ function recuperarDatos(){
     let telefono = localStorage.getItem("telefono");
     if (nombre!=null){
 
-        document.getElementById("datos").innerHTML= '<p>Comencemos con información sobre vos:</p><label for="nombreCompleto" class="form-label">Nombre completo:</label><input  type="text" class="form-control" id="nombreCompleto" value='+nombre+
+        document.getElementById("datos1").innerHTML= '<p>Comencemos con información sobre vos:</p><label for="nombreCompleto" class="form-label">Nombre completo:</label><input  type="text" class="form-control" id="nombreCompleto" value='+nombre+
         ' required><div hidden class ="text-danger validacion" id="validacionNombre">Complete Nombre</div><label for="edad" class="form-label">Edad</label><input required type="number" class="form-control" id="edad"value='+edad+
         ' ><div hidden class ="text-danger validacion" id="validacionEdad">Complete edad</div><label for="provincia" class="form-label">Provincia</label><select required id="provincia" class="form-select" aria-label="Default select example"><option selected>'+provincia+
         '</option><option value="mi">Misiones</option><option value="sl">San Luis</option><option value="sj">San Juan</option><option value="er">Entre Ríos</option><option value="sc">Santa Cruz</option><option value="rn">Río Negro</option><option value="chu">Chubut</option><option value="co">Córdoba</option><option value="mn">Mendoza</option><option value="lr">La Rioja</option><option value="ct">Catamarca</option><option value="lp">La Pampa</option><option value="se">Santiago del Estero</option><option value="ct">Corrientes</option><option value="sf">Santa Fe</option><option value="tu">Tucumán</option><option value="ne">Neuquén</option><option value="sa">Salta</option><option value="cha">Chaco</option><option value="fo">Formosa</option><option value="ju">Jujuy</option><option value="caba">Ciudad Autónoma de Buenos Aires</option><option value="ba">Buenos Aires</option><option value="tf">Tierra del Fuego</option></select><div hidden class ="text-danger validacion" id="validacionProvincia">Complete provincia</div><label required for="email" class="form-label">Email</label><input type="email" class="form-control" id="email" value='+email+
         ' aria-describedby="emailHelp"><div required id="emailHelp" class="form-text">No compartiremos tu mail con nadie.</div><div hidden class ="text-danger validacion" id="validacionEmail">Complete email</div><label for="telfono" class="form-label">Telefono</label><input required type="tel" class="form-control" id="telefono" value='+telefono+
-        '><div hidden class ="text-danger validacion" id="validacionTelefono">Complete telefono</div><div class="mt-3 mb-4"><h5>¿Cuáles servicios querés incluir en tu paquete?</h5></div><label for="marca" class="form-label">Diseño o re-diseño de tu marca</label><select required id="marca" class="form-select validacion" aria-label="Default select example">  <option selected></option>      <option value="si">Si</option>      <option value="no">No</option></Select><div hidden class ="text-danger validacion" id="validacionMarca">Complete telefono</div><label for="flyers" class="form-label">Flyers y diseños gráficos para tu marca</label><select required id="flyers" class="form-select" aria-label="Default select example">  <option selected></option>      <option value="si">Si</option>      <option value="no">No</option></Select><div hidden class ="text-danger validacion" id="validacionFlyers">Complete telefono</div><label for="videos" class="form-label">Stories, anuncios en video o videos institucionales</label><select required id="videos" class="form-select" aria-label="Default select example">  <option selected></option>      <option value="si">Si</option>      <option value="no">No</option></Select><div hidden class ="text-danger validacion" id="validacionAudiovisual">Complete telefono</div><button id="botonDatos" type="button" class="btn btn-primary mt-4">Comenzar</button>'
+        '><div hidden class ="text-danger validacion" id="validacionTelefono">Complete telefono</div><div class="mt-3 mb-4">'
          }
 }
 
@@ -572,23 +572,23 @@ function cotizacionTotal() {
 
 
 
-//     // Example starter JavaScript for disabling form submissions if there are invalid fields
-// (function () {
-//     'use strict'
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+    'use strict'
   
-//     // Fetch all the forms we want to apply custom Bootstrap validation styles to
-//     var forms = document.querySelectorAll('.needs-validation')
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
   
-//     // Loop over them and prevent submission
-//     Array.prototype.slice.call(forms)
-//       .forEach(function (form) {
-//         form.addEventListener('submit', function (event) {
-//           if (!form.checkValidity()) {
-//             event.preventDefault()
-//             event.stopPropagation()
-//           }
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
   
-//           form.classList.add('was-validated')
-//         }, false)
-//       })
-//   })()
+          form.classList.add('was-validated')
+        }, false)
+      })
+  })()
